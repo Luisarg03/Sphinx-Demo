@@ -100,13 +100,13 @@ sphinx-apidoc -o docs/source/rst src/modules
 ![alt text](./img/Selección_031.png)
 
 ## Referencias
-https://www.sphinx-doc.org/en/master/
-https://en.wikipedia.org/wiki/Sphinx_(documentation_generator)
-https://es.wikipedia.org/wiki/ReStructuredText
-https://en.wikipedia.org/wiki/ReStructuredText
-https://wiki.python.org/moin/DocumentationTools
+https://www.sphinx-doc.org/en/master/ |
+https://en.wikipedia.org/wiki/Sphinx_(documentation_generator) |
+https://es.wikipedia.org/wiki/ReStructuredText |
+https://en.wikipedia.org/wiki/ReStructuredText |
+https://wiki.python.org/moin/DocumentationTools |
 
-[Tutoria Medium de Julie Elise](https://betterprogramming.pub/auto-documenting-a-python-project-using-sphinx-8878f9ddc6e9)
-[Tutoria Medium de Michael Dunn](https://eikonomega.medium.com/getting-started-with-sphinx-autodoc-part-1-2cebbbca5365)
-[Canal de Youtube soumilshah1995](https://www.youtube.com/watch?v=5s3JvVqwESA)
-[Canal de Youtube {LP} WITH RAHMAT](https://www.youtube.com/watch?v=d_XeV6oyNvI&t)
+[Tutoria Medium de Julie Elise](https://betterprogramming.pub/auto-documenting-a-python-project-using-sphinx-8878f9ddc6e9) |
+[Tutoria Medium de Michael Dunn](https://eikonomega.medium.com/getting-started-with-sphinx-autodoc-part-1-2cebbbca5365) |
+[Canal de Youtube soumilshah1995](https://www.youtube.com/watch?v=5s3JvVqwESA) |
+[Canal de Youtube {LP} WITH RAHMAT](https://www.youtube.com/watch?v=d_XeV6oyNvI&t) |
