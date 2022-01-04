@@ -1,6 +1,6 @@
 
 # Sphinx para autogeneración de documentación
-
+#### ( Doc en progreso )
 ## Tabla de contenidos
 1. [Que es Sphinx](#que-es-sphinx)
 	- [Generador de documentación](#generador-de-documentación)
@@ -74,30 +74,45 @@ with a pipe character.
 Recomendación: Generar un entorno virtual para la instalación de Sphinx y sus estilos de temas.
 
 Versión Sphinx 4.3.2
-```bash
+```properties
 pip install -U Sphinx==4.3.2
 ```
 Estilo [Furo](https://sphinx-themes.org/sample-sites/furo/) ( Variedad de temas en [Sphinx Themes Gallery](https://sphinx-themes.org/) )
-```bash
+```properties
 pip install furo
 ```
 
 ## Inicio rápido
 
+1. Vista general del directorio de trabajo. El directorio **src** contiene el codigo documentado.
+
 ![alt text](./img/Selección_026.png)
 
-```bash
+2. Ejecutando el siguiente comando iniciara la creacion de los directorios relacionados a Sphinx, donde **docs** es el nombre que se le asigna al directorio raiz. (Por convencion se utiliza este nombre)
+
+```properties
 sphinx-quickstart docs
 ```
+3. Nos pedira que seleccionemos algunas opciones, que la mayoria se pueden omitir y setear luego. Pero la mas importante es la opcion de **"Seprar directorios fuente y compilado"**, donde ingresaremos **"y"** para mantener un orden en los directorios.
+
 ![alt text](./img/Selección_028.png)
+
+Vista general de los directorios y files creados.
 
 ![alt text](./img/Selección_029.png)
 
-```bash
+4. El siguiente comando permite a Sphinx buscar el directorio donde se encuentran los codigos documentados y generar el file .rst que se utilizara para generar la documentacion en el formato que especifiquemos mas adelante.
+Los argumentos seran los directorios OUTPUT ( docs/source/**rst** ) e INPUT. ( src/**modules** )
+
+```properties
 sphinx-apidoc -o docs/source/rst src/modules
 ```
 
+Directorio generado con el file .rst generado por Sphinx.
+
 ![alt text](./img/Selección_031.png)
+
+5. Configuracion del archivo **conf.py**
 
 ## Referencias
 **documentación oficial** -> https://www.sphinx-doc.org/en/master/
