@@ -8,8 +8,13 @@
 
 
 class Connect():
+    '''
+    Genera una conexion al bucket definido.
+
+    '''
+
     def __init__(self, namespace, bucket_name):
-        """
+        '''
         Genera una conexion al bucket definido.
 
         Parameters
@@ -19,22 +24,27 @@ class Connect():
         bucket_name: str
             Alias asignado a su ObjectStorage Service
 
-        """
+        '''
         
         self.namespace = namespace
         self.bucket_name = bucket_name
 
-        def ping(self, retry=1):
-            """
-            Prueba de conexion.
 
-            Parameters
-            ----------
-            retry: int
-                Numero de intentos de reconexion (default 1)
+    def ping(self, retry=1):
+        '''
+        Prueba de conexion.
 
-            """
-            
-            ping = 0.9
+        Parameters
+        ----------
+        retry: int
+            Numero de intentos de reconexion (default 1)
 
-            return ping
+        Return
+        ------
+        float
+            Valor numerico que representa el ping de conexion.
+        '''
+        
+        ping = 0.9
+
+        return ping

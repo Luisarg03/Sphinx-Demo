@@ -189,8 +189,13 @@
 
 
 <div class="viewcode-block" id="Connect"><a class="viewcode-back" href="../../rst/modules.html#modules.classes.Connect">[docs]</a><span class="k">class</span> <span class="nc">Connect</span><span class="p">():</span>
+    <span class="sd">'''</span>
+<span class="sd">    Genera una conexion al bucket definido.</span>
+
+<span class="sd">    '''</span>
+
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">namespace</span><span class="p">,</span> <span class="n">bucket_name</span><span class="p">):</span>
-        <span class="sd">"""</span>
+        <span class="sd">'''</span>
 <span class="sd">        Genera una conexion al bucket definido.</span>
 
 <span class="sd">        Parameters</span>
@@ -200,25 +205,30 @@
 <span class="sd">        bucket_name: str</span>
 <span class="sd">            Alias asignado a su ObjectStorage Service</span>
 
-<span class="sd">        """</span>
+<span class="sd">        '''</span>
         
         <span class="bp">self</span><span class="o">.</span><span class="n">namespace</span> <span class="o">=</span> <span class="n">namespace</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">bucket_name</span> <span class="o">=</span> <span class="n">bucket_name</span>
 
-        <span class="k">def</span> <span class="nf">ping</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">retry</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
-            <span class="sd">"""</span>
-<span class="sd">            Prueba de conexion.</span>
 
-<span class="sd">            Parameters</span>
-<span class="sd">            ----------</span>
-<span class="sd">            retry: int</span>
-<span class="sd">                Numero de intentos de reconexion (default 1)</span>
+<div class="viewcode-block" id="Connect.ping"><a class="viewcode-back" href="../../rst/modules.html#modules.classes.Connect.ping">[docs]</a>    <span class="k">def</span> <span class="nf">ping</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">retry</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="sd">'''</span>
+<span class="sd">        Prueba de conexion.</span>
 
-<span class="sd">            """</span>
-            
-            <span class="n">ping</span> <span class="o">=</span> <span class="mf">0.9</span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        retry: int</span>
+<span class="sd">            Numero de intentos de reconexion (default 1)</span>
 
-            <span class="k">return</span> <span class="n">ping</span></div>
+<span class="sd">        Return</span>
+<span class="sd">        ------</span>
+<span class="sd">        float</span>
+<span class="sd">            Valor numerico que representa el ping de conexion.</span>
+<span class="sd">        '''</span>
+        
+        <span class="n">ping</span> <span class="o">=</span> <span class="mf">0.9</span>
+
+        <span class="k">return</span> <span class="n">ping</span></div></div>
 </pre></div>
         </article>
       </div>

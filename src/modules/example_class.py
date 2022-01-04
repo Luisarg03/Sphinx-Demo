@@ -24,39 +24,39 @@ class Operations():
         self.a = a
         self.b = b
 
-        def suma(self):
-            """
-            Suma los dos atributos del objeto.
+    def suma(self):
+        """
+        Suma los dos atributos del objeto.
 
-            Parameters
-            ----------
+        Parameters
+        ----------
 
-            Return
-            ------
-            float
-                Resultado de la suma de los atributos.
+        Return
+        ------
+        float
+            Resultado de la suma de los atributos.
 
-            """
-            
-            suma = self.a + self.b
+        """
+        
+        suma = self.a + self.b
 
-            return suma
+        return suma
 
 
-        def resta(self):
-            """
-            Resta los dos atributos del objeto.
+    def resta(self):
+        """
+        Resta los dos atributos del objeto.
 
-            Parameters
-            ----------
+        Parameters
+        ----------
 
-            Return
-            ------
-            float
-                Resultado de la resta de los atributos.
+        Return
+        ------
+        float
+            Resultado de la resta de los atributos.
 
-            """
-            
-            resta = self.a - self.b
+        """
+        
+        resta = self.a - self.b
 
-            return resta
+        return resta

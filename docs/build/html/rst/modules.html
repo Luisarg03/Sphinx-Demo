@@ -187,6 +187,23 @@
 <dt class="sig sig-object py" id="modules.classes.Connect">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">modules.classes.</span></span><span class="sig-name descname"><span class="pre">Connect</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">namespace</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bucket_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/modules/classes.html#Connect"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#modules.classes.Connect" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Genera una conexion al bucket definido.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="modules.classes.Connect.ping">
+<span class="sig-name descname"><span class="pre">ping</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">retry</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/modules/classes.html#Connect.ping"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#modules.classes.Connect.ping" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prueba de conexion.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>retry</strong> (<em>int</em>) – Numero de intentos de reconexion (default 1)</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Valor numerico que representa el ping de conexion.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
 </dd></dl>
 </section>
 <section id="module-modules.example_class">
@@ -195,6 +212,32 @@
 <dt class="sig sig-object py" id="modules.example_class.Operations">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">modules.example_class.</span></span><span class="sig-name descname"><span class="pre">Operations</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/modules/example_class.html#Operations"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#modules.example_class.Operations" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="modules.example_class.Operations.resta">
+<span class="sig-name descname"><span class="pre">resta</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/modules/example_class.html#Operations.resta"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#modules.example_class.Operations.resta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resta los dos atributos del objeto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Resultado de la resta de los atributos.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="modules.example_class.Operations.suma">
+<span class="sig-name descname"><span class="pre">suma</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/modules/example_class.html#Operations.suma"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#modules.example_class.Operations.suma" title="Permalink to this definition">¶</a></dt>
+<dd><p>Suma los dos atributos del objeto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Resultado de la suma de los atributos.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
 </dd></dl>
 </section>
 <section id="module-modules.example_funct">
