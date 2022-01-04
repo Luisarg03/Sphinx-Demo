@@ -33,3 +33,11 @@ modules.funtions module
    :members:
    :undoc-members:
    :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: modules
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -138,7 +138,16 @@ Directorio generado con el file .rst generado por Sphinx.
 
 	c. Seteamos el nombre del tema instalado previamente, en este ejemplo **furo**.
 	![alt text](./img/Selección_003.png)
+	<br>
 
+6. Posicionarse en "docs" y ejecutar el siguiente comando.
+```properties
+cd docs/
+make clean html
+```
+
+7. Se habra generado varios .html dentro del directorio **docs/build/html** .
+Se podra acceder a la documentacion generada desde **index.html** .
 
 ## Referencias
 **documentación oficial** -> https://www.sphinx-doc.org/en/master/
