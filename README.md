@@ -113,6 +113,7 @@ Directorio generado con el file .rst generado por Sphinx.
 ![alt text](./img/Selección_031.png)
 
 5. Configuracion del archivo **conf.py**
+
 	a. Se deben descomentar las 3 primeras lineas de codigo y agregar el **path relativo** ( En este caso **../../src** ) donde se aloja la app. 
 	Es posible agregar el path absoluto, pero no es recomendable.
 	![alt text](./img/Selección_001.png)
