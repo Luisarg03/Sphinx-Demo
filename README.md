@@ -93,7 +93,7 @@ pip install furo
 ```properties
 sphinx-quickstart docs
 ```
-3. Nos pedira que seleccionemos algunas opciones, que la mayoria se pueden omitir y setear luego. Pero la mas importante es la opcion de **"Seprar directorios fuente y compilado"**, donde ingresaremos **"y"** para mantener un orden en los directorios.
+3. Nos pedira que seleccionemos algunas opciones, que la mayoria se pueden omitir y setear luego. Pero la mas importante es la opcion de **"Separar directorios fuente y compilado"**, donde ingresaremos **"y"** para mantener un orden en los directorios.
 
 ![alt text](./img/Selección_028.png)
 
@@ -113,6 +113,31 @@ Directorio generado con el file .rst generado por Sphinx.
 ![alt text](./img/Selección_031.png)
 
 5. Configuracion del archivo **conf.py**
+	a. Se deben descomentar las 3 primeras lineas de codigo y agregar el **path relativo** ( En este caso **../../src** ) donde se aloja la app. 
+	Es posible agregar el path absoluto, pero no es recomendable.
+	![alt text](./img/Selección_001.png)
+	<br>
+
+	b. Agregar las siguientes lineas.
+	- La extencion **autodoc** es las extencion para la semi autodocumentacion.
+	- **coverage** recoge estadísticas de la cobertura de la documentación.
+	- Los docstrings del codigo estan en estilo NumPy, la extension **napoleon** reconoce este formato.
+	- La extencion **viewcode** genera un link para visualizar los codigos en la documentacion final.
+
+
+	```python
+	'sphinx.ext.autodoc',
+    'sphinx.ext.coverage',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode'
+	```
+
+	![alt text](./img/Selección_002.png)
+	<br>
+
+	c. Seteamos el nombre del tema instalado previamente, en este ejemplo **furo**.
+	![alt text](./img/Selección_003.png)
+
 
 ## Referencias
 **documentación oficial** -> https://www.sphinx-doc.org/en/master/
