@@ -100,8 +100,7 @@ sphinx-apidoc -o docs/source/rst src/modules
 ![alt text](./img/Selección_031.png)
 
 ## Referencias
-documentacion oficial
-https://www.sphinx-doc.org/en/master/
+**documentación oficial** -> https://www.sphinx-doc.org/en/master/
 
 https://en.wikipedia.org/wiki/Sphinx_(documentation_generator)
 
